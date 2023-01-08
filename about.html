@@ -1,0 +1,93 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png"></a>
+            <div class="nav-container">
+                <div class="nav-links" id="navLinks">
+                    <img src="img/close1.png" onclick="hideMenu()">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            
+                <img src="img/menu.png" onclick="showMenu()">
+            </div>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!-- About Us Container-->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the World's Largest University</h1>
+                <p>We are the world's largest university</h1>
+                    <p>Eduford is a virtual university that has students from 
+                    all around the world. It offers a wide range of courses in 
+                    various fields, including business, science, technology, and 
+                    the arts. The university has a strong focus on providing accessible 
+                    and affordable education to students from all backgrounds. It has a 
+                    highly qualified faculty of professors and industry experts who lead 
+                    interactive online lectures and discussions. With over 100,000 enrolled 
+                    students, Eduford is the largest university in the world and continues 
+                    to grow in popularity.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="img/about.jpg"> 
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>EduFord University is a leading institution dedicated to 
+        providing high-quality education and personal development <br /> 
+        opportunities to students from around the world.</p>
+    <div class="icons">
+        <img src="img/facebook (1).png">
+        <img src="img/twitter.png">
+        <img src="img/instagram.png">
+        <img src="img/youtube.png">
+    </div>
+    <p>Made By Shehzor Memon</p>
+</section>
+
+
+<!--Javascript for toggle menu-->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+
+</html>

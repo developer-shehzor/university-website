@@ -1,0 +1,163 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png"></a>
+            <div class="nav-container">
+                <div class="nav-links" id="navLinks">
+                    <img src="img/close1.png" onclick="hideMenu()">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+
+                    </ul>
+                </div>
+            
+                <img src="img/menu.png" onclick="showMenu()">
+            </div>
+        </nav>
+        <h1>Our Certificates and Online Programs for 2022</h1>
+    </section>
+
+    <!-- Blog Page Content -->
+
+    <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="img/certificate.jpg">
+                <h2>Our Certificates and Online Programs for 2022</h2>
+                <p>Our Certificate and Online Programs for 2021 offer a variety 
+                    of courses that cater to a wide range of interests and career paths.
+                    Our programs are designed to be flexible and convenient, allowing 
+                    students to study at their own pace and from the comfort of their 
+                    own home. Our experienced faculty members are dedicated to providing 
+                    a high-quality education and are available to support students 
+                    throughout the duration of their program.</p>
+                    <br />
+                    <p>Our certificate programs offer a comprehensive and in-depth education
+                     in a specific field or discipline. These programs are designed to provide 
+                     students with the skills and knowledge they need to succeed in their careers.
+                     In 2021, we are offering certificate programs in a variety of areas, including business, healthcare, technology, and more.
+                     Our online programs provide students with the flexibility to study at their own pace and on their own schedule.
+                     With online programs, students can access course materials and lectures from anywhere with an internet connection.
+                     Our online programs are taught by experienced instructors who are experts in their fields.
+                     In 2021, we are expanding our online program offerings to include new and innovative courses.
+                     Our online programs provide students with the opportunity to earn a valuable and respected credential without having to leave their current job or relocate.
+                     Our certificate and online programs are a great way for students to further their education and advance their careers.
+                     We offer a range of support services for our online students, including academic advising, tutoring, and career services.
+                     In 2021, we are introducing new technology and resources to enhance the online learning experience for our students.
+                     We are committed to providing high-quality, accessible education to students around the world through our certificate and online programs.
+                    </p>
+
+
+                <div class="comment-box">
+
+                    <h3>Leave a comment</h3>
+    
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea name="" rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+    
+                    </form>
+    
+                </div>
+
+
+            </div>
+
+           
+
+
+
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>30</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>20</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    
+
+    
+    
+
+    <!-- Footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>EduFord University is a leading institution dedicated to 
+        providing high-quality education and personal development <br /> 
+        opportunities to students from around the world.</p>
+    <div class="icons">
+        <img src="img/facebook (1).png">
+        <img src="img/twitter.png">
+        <img src="img/instagram.png">
+        <img src="img/youtube.png">
+    </div>
+    <p>Made By Shehzor Memon</p>
+</section>
+
+
+<!--Javascript for toggle menu-->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+
+</html>
